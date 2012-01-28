@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Museo';
+	font-weight: 700;
+	src: url('webfonts/eot/style_154925.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/woff/style_154925.woff') format('woff'),
+		 url('webfonts/ttf/style_154925.ttf') format('truetype'),
+		 url('webfonts/svg/style_154925.svg#Museo-700') format('svg');
+}
+@font-face {
+	font-family: 'Museo';
+	font-weight: 300;
+	src: url('webfonts/eot/style_154926.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/woff/style_154926.woff') format('woff'),
+	url('webfonts/ttf/style_154926.ttf') format('truetype'),
+	url('webfonts/svg/style_154926.svg#Museo-300') format('svg');
+}
+@font-face {
+	font-family: 'Museo';
+	font-weight: 500;
+	src: url('webfonts/eot/style_154928.eot?#iefix') format('embedded-opentype'),
+	url('webfonts/woff/style_154928.woff') format('woff'),
+	url('webfonts/ttf/style_154928.ttf') format('truetype'),
+	url('webfonts/svg/style_154928.svg#Museo-500') format('svg');
+}
+
+body {
+	background-color: #ffffff;
+	font-family: 'Museo';
+	font-weight: 300;
+	font-size: 20px;
+	color: #222;
+	text-shadow: 1px 1px #cdcdcd;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+h1#header {
+	font-family: 'Museo';
+	font-weight: 700;
+	font-size: 5.5em;
+	color: #111;
+	text-shadow: 4px 4px #ccc;
+	width: 1024px;
+	margin: 0.4em;
+}
+
+h2 {
+	font-family: 'Museo';
+	font-weight: 500;
+	width: 1024px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-top: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin-top: 0px;
+	list-style-type: none;
+}
