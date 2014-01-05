@@ -1,0 +1,98 @@
+@baseWidth: 800px;
+@colorBlack: #333;
+@colorGrey: #666;
+
+@backgroundColor: @colorBlack;
+@textColor: @colorGrey;
+@headColor: @colorBlack;
+
+@sansSerif: Arial, Verdana, Sans-serif;
+@serif: Georgia, "Times new roman", serif;
+
+
+body {
+	background-color: #FAFAFA;
+	font-family: @sansSerif;
+	font-size: 22px;
+	color: @textColor;
+}
+
+.container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: @baseWidth
+}
+
+.app {
+	h1, h2 {
+		color: @headColor;
+	}
+	h1 {
+		font-size: 1.25em;
+		font-weight: 900;
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+
+	&.full {
+		&.header {
+			
+		}	
+
+		&.footer {
+			background-color: @backgroundColor;
+			color: #FFF;
+		}
+	}
+
+	section.content {
+		min-height: 800px;
+		padding-top: 10px;
+
+		article {
+			margin-bottom: 100px;
+
+			h2 {
+				margin-top: 20px;
+			}
+			p {
+				padding-top: 15px; 
+				line-height: 1.30;
+			}
+		}
+	}
+
+	header {
+		color: @colorBlack;
+		margin-top: 30px;
+		height: 50px;
+	}
+
+	footer {
+		padding-top: 25px;
+		padding-bottom: 40px;
+		text-align: center;
+		font-size: 0.8em;
+	}
+
+	.go-up {
+		display: block;
+		width: 800px;
+		padding-bottom: 25px;
+		text-align: right;
+
+		a {
+			padding-left: 20px;
+			text-decoration: none;
+			color: @textColor;
+		}
+	}
+
+	
+
+	
+}
+
+
