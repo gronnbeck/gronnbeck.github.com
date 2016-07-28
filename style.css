@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
+
+body {
+  background: #eee;
+}
+
+.content {
+
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+  background-color: #000;
+  color: #fff;
+  font-size: 2em;
+  line-height: 1;
+  height: 3em;
+  width: 2.7em;
+  padding: 0.25em;
+}
+
+.logo-large {
+  display: block;
+}
+
+.logo-small {
+  font-size: 0.75em;
+}
+
+.archive-list {
+  list-style: none;
+  list-style-type: none;
+  font-size: 1.15em;
+}
+
+.archive-list-element {
+  margin-bottom: 0.25em;
+}
+
+.archive-list-date {
+  margin-right: 2em;
+}
+
+.archive-list-type {
+  margin-right: 0.2em;
+}
+
+.archive-list a {
+  text-decoration: none;
+}
+
+.about {
+  font-size: 1.15em;
+}
