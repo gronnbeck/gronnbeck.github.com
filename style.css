@@ -32,11 +32,14 @@ body {
 .archive-list {
   list-style: none;
   list-style-type: none;
-  font-size: 1.15em;
+  padding-left: 0;
+  
 }
 
 .archive-list-element {
   margin-bottom: 0.25em;
+  padding-left: 0;
+
 }
 
 .archive-list-date {
@@ -52,5 +55,9 @@ body {
 }
 
 .about {
+  font-size: 1.15em;
+}
+
+.archive {
   font-size: 1.15em;
 }
